@@ -1,0 +1,19 @@
+.niceCheck, .niceCheck0 {
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	cursor: pointer;
+	background: url(checkbox-img/checkbox-bg.gif) 0 0 no-repeat;
+	overflow: hidden;
+	margin:0 0 -4px 0 !important;
+	padding:0 !important;
+}
+.niceChecked0 {
+	background: url(checkbox-img/checkbox-checked-bg.gif) 0 0 no-repeat;
+}
+.niceCheck input, .niceCheck0 input, #chooseAll input {
+	visibility:hidden;
+}
+.niceCheckDisabled {
+	
+}

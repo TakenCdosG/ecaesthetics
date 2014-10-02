@@ -1,0 +1,21 @@
+.btn-default:hover {
+  background-color: #949fad;
+}
+.btn-info:hover {
+  background-color: #3eaac0;
+}
+.btn-primary:hover {
+  background-color: #003c68;
+}
+.btn-success:hover {
+  background-color: #051e21;
+}
+.btn-warning:hover {
+  background-color: #e02210;
+}
+.btn-danger:hover {
+  background-color: #b9132a;
+}
+.btn-inverse:hover {
+  background-color: #121419;
+}

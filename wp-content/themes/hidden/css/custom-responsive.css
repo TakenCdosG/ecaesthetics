@@ -1,0 +1,235 @@
+/**** Responsive Design ****/
+
+/* =Media queries
+-------------------------------------------------------------- */
+
+/* Min width of 1025 pixels. */
+@media (min-width: 1025px) { 
+
+
+}
+
+/* Maximum width of 1200 pixels. */
+@media (max-width: 1200px) { 
+    #top-menu .sf-menu > li {
+        margin-left: 20px;
+    }
+    .bucket_item {
+        height: 287px;
+        overflow: hidden;
+    }
+
+    #footer .container .row .footer-widget-1 {
+        width: 37%;
+    }
+
+    #footer .container .row .footer-widget-right {
+        width: 63%;
+    }
+    #footer .widget_nav_menu ul li {
+        margin-right: 4px;
+    }
+    #mega-menu-wrap-top_menu-2 #mega-menu-top_menu-2 > li.mega-menu-item > a {
+        padding: 3px;
+    }
+}
+
+/* Maximum width of 1024 pixels. */
+@media (max-width: 1024px) { 
+    #top-menu .sf-menu > li {
+        margin-left: 20px;
+    }
+    .bucket_item {
+        height: 287px;
+        overflow: hidden;
+    }
+
+    #footer .container .row .footer-widget-1 {
+        width: 37%;
+    }
+
+    #footer .container .row .footer-widget-right {
+        width: 63%;
+    }
+    #footer .widget_nav_menu ul li {
+        margin-right: 4px;
+    }
+}
+
+/* Maximum width of 991 pixels. */
+@media (max-width: 991px) { 
+    #navigation, .sf-menu {
+        display: block;
+    }
+    #menu-primary-navigation-1{
+        display: none;
+    }
+    .social-links {
+        display: block;
+    }
+    .side_menu_button {
+        display: block;
+        top: 60px;
+    }
+    .footer-widget-4{
+        display: none;
+    }
+    #footer .container .row .footer-widget-1 {
+        width: 48%!important;
+    }
+
+    .footer-widget-right {
+        width: 52%!important;
+    }
+
+    .widget_bgimage a {
+        font-size: 24px;
+    }
+
+    .widget_bgimage .text {
+        font-size: 15px;
+    }
+    .bucket_item {
+        height: 216px;
+        overflow: hidden;
+    }
+
+    #title_option {
+        font-size: 27px;
+        padding-bottom: 17px;
+    }
+    .footer-widget-right .col-sm-6{
+        position: relative;
+        min-height: 1px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    #my_text_and_shortcodeswidget-2 .widget-title {
+        font-size: 16px;
+    }
+    #title_social, .textwidget .radikal_medium_bold {
+        font-size: 16px;
+    }
+
+    #mega-menu-top_menu-2{
+        display: none;
+    }
+}
+
+/* Maximum width of 768 pixels. */
+@media (max-width: 768px) { 
+
+    .side_menu_button{
+        display: block;
+    }
+    #top-menu{
+        display: none;
+    }
+
+    .navbar-primary-links{
+        display: none;
+    }
+
+    .navbar-social-links{
+        background: none;
+    }
+
+    #option-wrapper{
+        display: none;
+    }
+
+    .bucket_item {
+        height: auto!important;
+        width: 100%!important;
+        overflow: hidden;
+        padding-right: 0px;
+    }
+
+    #footer .container .row .footer-widget-1 #widget_sp_image-2{
+        display: none;
+    }
+
+    #footer .container .row .footer-widget-1 #text-2 {
+        float: none;
+    }
+
+    .footer-widget-right {
+        width: 100%!important;
+    }
+
+    .footer-widget-right .col-sm-6 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .footer-widget-right .footer-widget-3{
+        display: none;
+    }
+
+    .side_menu_button {
+        top: 18px;
+    }
+
+    .navbar-top-menu{
+        padding: 13px 0px;
+        position: absolute;
+        right: 0px;
+        top: 57px;
+        cursor: pointer;
+        z-index: 9999;
+    }
+
+    ul.social-links li {
+        padding-left: 5px;
+        padding-right: 0;
+    }
+
+    #header_image {
+        height: 300px;
+    }
+
+    .without-margin-left-md{
+        padding-left: 0px;
+        margin-left: 0px;
+
+    }
+
+    #menu-primary-navigation-1 {
+        display: block;
+    }
+
+    .footer-widget-right .footer-widget-3{
+        display: block;
+    }
+
+    #footer .container .row .footer-widget-1 #text-2 {
+        float: none;
+        width: 100%;
+    }
+
+    #footer .container .row .footer-widget-1 #widget_sp_image-2 {
+        display: block;
+        width: 100%;
+        clear: both;
+    }
+
+    .footer-widget-4 {
+        display: block;
+    }
+
+    #mega-menu-wrap-top_menu-2{
+        display: none;
+    }
+
+    #footer .container .row .footer-widget-1 {
+        width: 100%!important;
+    }
+
+}
+
+/* Maximum width of 1024 pixels. */
+@media (max-width: 320px) { 
+
+}

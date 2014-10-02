@@ -1,0 +1,15 @@
+/*
+Theme Name: Hidden Treasure
+Theme URI: http://eazzy.me/wp/hidden/
+Author: crazyfuze
+Author URI: http://themeforest.net/user/crazyfuse
+Description: Multipurpose themes with e-commerce
+Version: 1.0.0
+License: GNU General Public License
+License URI: license.txt
+Tags: woocommerce, dynamic sidebars, page composer, clean, light, white, red, gray, one-column, two-columns, left-sidebar, right-sidebar, fixed-width, flexible-width, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+*/
+
+@import 'css/style.css';
+@import 'css/custom.css';
+@import 'css/custom-responsive.css';

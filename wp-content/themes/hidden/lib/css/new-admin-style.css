@@ -1,0 +1,818 @@
+a:active, a:focus {outline: none;}
+
+#afl-form-options textarea, #afl-form-options input[type="text"], #afl-form-options input[type="password"], #afl-form-options input[type="file"], #afl-form-options input[type="button"], #afl-form-options input[type="submit"], #afl-form-options input[type="reset"], #afl-form-options select , .afl-select-unify{
+    border-color: #E2EAED;
+}
+
+#afl-form-options{
+    width:780px;
+    position: relative;
+    border:1px solid #E2EAED;
+    background: #fff;
+    margin: 20px 0 0 16px;
+    background-color: #f3f3f3;
+    z-index: 2;
+}
+
+.afl-options-page{
+    position: relative;
+    border:1px solid #fff;
+}
+
+.afl-options-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: -8px;
+}
+
+/****************header****************/
+.afl-options-header{
+    position: relative;
+    padding:20px;
+    height:45px;
+    border-bottom: 1px solid #fff;
+}
+
+.afl-logo{
+    padding:6px 0;
+    margin:0;
+    font-size: 25px;
+    color:#666;
+    text-shadow: 1px 1px 1px #fff;
+    font-family: "Droid Sans", sans-serif;
+    font-weight: normal;
+}
+
+.afl-options-header .afl-style-wrap{
+    position: absolute;
+    bottom: 20px;
+    right:20px;
+}
+
+/****************footer****************/
+
+.afl-options-footer{
+    position: relative;
+    padding:20px;
+    height:45px;
+    border-top: 1px solid #E2EAED;
+    clear:both;
+    margin-top:8px;
+}
+
+.afl-footer-links li{
+    float:left;
+}
+
+.afl-options-footer .afl-footer-save, .afl-section > .afl-footer-save {
+    float:right;
+}
+
+
+/****************option pages****************/
+
+/*half sized sections*/
+#afl-form-options .afl-sidebar-active .afl-one-half{
+    float:left;
+    width:313px;
+    clear:none;
+    border-left:1px solid #E2EAED;
+    left:-2px;
+    position: relative;
+}
+
+#afl-form-options .afl-sidebar-active div .afl-first{
+    border-right:1px solid #E2EAED;
+    position: relative;
+    left:-1px;
+}
+
+#afl-form-options .afl-sidebar-active .afl-one-half .afl-section {
+    width: 277px;
+}
+
+#afl-form-options .afl-form-options-inner .afl-first{
+    left:-2px;
+}
+
+#afl-form-options div .afl-one-half{
+    float:left;
+    width:387px;
+    clear:none;
+    border-left:1px solid #E2EAED;
+    left:-3px;
+}
+
+#afl-form-options .afl-one-half .afl-section {
+    width: 347px;
+}
+
+
+
+/*end half sized sections*/
+
+.afl-section-header{
+    border-top:1px solid #E2EAED;
+    border-bottom:1px solid #fff;
+    margin: 0;
+    padding: 15px 20px;
+    clear:both;
+    background: #fff;
+    display:block;
+}
+
+.afl-sidebar-active .afl-section-header{
+    display:none;
+}
+
+.afl-form-options-content .afl-section-header strong{
+    padding:0;
+    margin:0;
+    font-size: 18px;
+    font-weight: normal;
+    text-shadow: 1px 1px 1px #FFFFFF;
+    color: #666666;
+    font-family: "Georgia";
+    font-style: italic;
+    background-position: right center;
+}
+
+.afl-sidebar-content .afl-section-header{
+    background: transparent;
+    cursor: pointer;
+}
+
+#afl-form-options .afl-active-nav{
+    background-color: #fff;
+    color:#333;
+}
+
+.afl-sidebar-content{
+    border-bottom:1px solid #E2EAED;
+}
+
+.afl-page-title {
+    background-position: left center;
+    background-repeat: no-repeat;
+    display: block;
+    font-size: 11px;
+    font-weight: normal;
+    padding: 0 0 0 24px;
+}
+
+.afl-sidebar-content .afl-section-header{
+    font-size:12px;
+    padding:10px;
+    color:#7D8388;
+}
+
+
+
+.afl-sidebar-active .afl-subpage-container{
+    display:none;
+    min-height: 300px;
+}
+
+.afl-subpage-container, #afl-form-options .afl-active-container{
+    display:block;
+    float:left;
+    clear: both;
+    width: 100%;
+    position: relative;
+}
+
+
+.afl-preview-pic{
+    position: relative;
+}
+
+.afl-remove-image{
+    width:20px;
+    height:20px;
+    position: absolute;
+    background: transparent url(images/icons/close.png) no-repeat top left;
+    text-indent: -9999px;
+    outline:none;
+    bottom:-5px;
+    left:-5px;
+}
+
+.afl-control{
+    width:40%;
+    float:left;
+    min-height: 46px;
+}
+
+
+.afl-description{
+    width:60%;
+    float:right;
+}
+
+#afl-form-options .afl-section {
+    border-top:1px solid #E2EAED;
+    border-bottom:1px solid #fff;
+    padding:20px;
+    clear: both;
+    width:740px;
+    position: relative;
+    float: left;
+}
+
+#afl-form-options .afl-set, #afl-form-options .afl-single-set, #afl-form-options .afl-visual-set {
+    width:100%;
+    float: left;
+    clear: both;
+    position: relative;
+}
+
+#afl-form-options .afl-single-set, #afl-form-options .afl-visual-set{
+    border-top:1px solid #E2EAED;
+    border-bottom:1px solid #fff;
+    padding: 10px 0;
+}
+
+#afl-form-options .afl-set .afl-section,
+#afl-form-options .afl-visual-set .afl-section,
+#afl-form-options #afl-tab-social .afl-section,
+#afl-form-options #afl-tab-fonts .afl-section,
+#afl-form-options #afl-tab-sidebar .afl-section,
+#afl-form-options #afl-background-slides .afl-section,
+#afl-background-options .display-options .afl-section {
+    border:none;
+    padding:10px 20px;
+    background: none;
+}
+
+
+div #afl-form-options .afl-one-half .afl-single-set,div #afl-form-options .afl-visual-set.afl-one-half  {
+    background: none;
+    padding:0;
+}
+
+#afl-form-options .afl-one-half .afl-set .afl-section{
+    padding-bottom:30px;
+}
+
+
+#afl-form-options .afl-set .afl-set{
+    width:93%;
+    border:1px solid #E2EAED;
+    margin-left:20px;
+    margin-bottom:30px;
+    border-top:1px solid #fff;
+}
+
+#afl-form-options .afl-sidebar-active .afl-set .afl-set .afl-section{
+    width:87%;
+}
+
+#afl-form-options .afl-sidebar-active .afl-set .afl-set .afl-description {
+    float: right;
+    width: 40%;
+}
+
+
+.afl-clone-set, .afl-remove-set{
+    display:block;
+    height:24px;
+    width:24px;
+    position: absolute;
+    bottom: 0;
+    right:0;
+    background: #fff url(images/icons/add.png) no-repeat right bottom;
+    border-top:1px solid #E2EAED;
+    border-left:1px solid #E2EAED;
+    -webkit-border-radius: 20px 0px 0px 0px;
+    -moz-border-radius: 20px 0px 0px 0px;
+    border-radius: 20px 0px 0px 0px;
+    outline: none;
+    text-indent: -9999px;
+}
+
+.afl-remove-set{
+    right:0;
+    background: #fff url(images/icons/close.png) no-repeat right bottom;
+}
+
+
+.afl-section .afl-style-wrap{
+    position: relative;
+    left:-9px;
+}
+
+.afl-section .afl-style-wrap:hover{
+    background-position: top left;
+}
+
+.afl-description{
+    font-size:11px;
+    color:#7d8388;
+}
+
+.afl-form-options-sidebar{
+    display:none;
+}
+
+#afl-form-options div .afl-heading{
+    font-size: 11px;
+    color:#888;
+    background: url("images/layout/arrow.png") no-repeat scroll left top #fff;
+}
+
+/*option pages active sidebar*/
+
+#afl-form-options .afl-options-page .afl-options-page-sidebar{
+    display:block;
+    width:147px;
+    height:100%;
+    float:left;
+    border-right:1px solid #fff;
+}
+
+#afl-form-options .afl-sidebar-active .afl-sidebar-content{
+    border-top:1px solid #E2EAED;
+}
+
+#afl-form-options .afl-sidebar-active .afl-options-page-content{
+    display:block;
+    width:629px;
+    float:left;
+}
+
+#afl-form-options .afl-sidebar-active .afl-section{
+    width:590px;
+}
+
+
+.afl-sidebar-active .afl-control{
+    width:50%;
+    float:left;
+}
+
+
+.afl-sidebar-active .afl-description{
+    width:50%;
+    float:right;
+}
+
+.afl-sidebar-active .afl-options-page-content{
+    border-left:1px solid #E2EAED;
+}
+
+/*import*/
+
+.afl-import-result, .afl-import-wait{
+    padding:10px 0;
+    color: #7D8388;
+    font-size: 11px;
+    width:90%;
+}
+
+.afl-import-wait{
+    display:none;
+}
+
+#afl-form-options #afl-import {
+    border-bottom: 0;
+}
+
+div .afl-import-loading{
+    padding: 6px;
+    position: absolute;
+    visibility: hidden;
+}
+
+/****************meta_box****************/
+
+
+.afl-meta-box .afl-section .afl-style-wrap {
+    left: 0;
+}
+
+
+.afl-single-set{
+    position: relative;
+}
+
+/*metabox sidebar*/
+
+#wpwrap .meta_box_side .afl-style-wrap select {
+    width: 223px;
+}
+
+#side-info-column .afl-meta-box{
+    background: none repeat scroll 0 0 #F8F8F8;
+    border: 1px solid #E2EAED;
+    clear: both;
+    margin-bottom: 7px;
+    overflow: hidden;
+    padding: 15px;
+}
+
+/****************general****************/
+
+#afl-form-options .afl-subpage-container > h3{
+    border-top: 1px solid #E2EAED;
+    border-bottom: 1px solid #FFFFFF;
+    padding:6px 0 6px 10px;
+    margin:0;
+    font-size:14px;
+    color:#364247;
+}
+
+#afl-form-options h4{
+    margin:0 0 6px 0;
+    font-size:13px;
+    color:#364247;
+}
+
+#wpwrap .afl-button {
+    display: inline-block;
+    font-family: "Trebuchet MS",sans-serif;
+    margin: 0;
+    padding: 6px 17px;
+    background: #2997ab url(images/layout/bg-button.png) repeat-x top left;
+    border: 1px solid #2997ab;
+    color:#fff;
+    cursor:pointer;
+    outline: none;
+    font-size: 12px;
+    text-decoration: none;
+    text-shadow:1px -1px 0 #2997ab;
+}
+
+#wpwrap .afl-button:hover{
+    background-color: #39bcd4;
+    border: 1px solid #39bcd4;
+    outline: none;
+}
+
+#wpwrap .afl-button:focus{
+    background-color: #39bcd4;
+    border: 1px solid #39bcd4;
+    outline: none;
+}
+
+#wpwrap .afl-button-inactive, #wpwrap .afl-button-inactive:hover , #wpwrap .afl-button-inactive:focus{
+    cursor: default;
+    background-color: #aaa;
+    border: 1px solid #aaa;
+    padding: 6px 17px;
+    text-shadow:1px -1px 0 #999;
+}
+
+
+#wpwrap .afl-button-grey{
+    background-color: #87949D;
+    border: 1px solid #87949D;
+    text-shadow:1px -1px 0 #999;
+}
+
+#wpwrap .afl-button-red{
+    background-color: #d54e21;
+    border: 1px solid #d54e21;
+    text-shadow:1px -1px 0 #d54e21;
+}
+
+#wpwrap .afl-button-red:hover{
+    background-color: #d5693e;
+    border: 1px solid #d5693e;
+    outline: none;
+}
+
+#wpwrap .afl-button-grey:hover , #wpwrap .afl-button-grey:focus{
+    background-color: #d54e21;
+    border: 1px solid #d54e21;
+    text-shadow:1px -1px 0 #d54e21;
+}
+
+
+
+.afl-style-wrap{
+    position: relative;
+    display:inline-block;
+    padding:3px;
+    background-color: #ececec;
+}
+
+
+
+#wpwrap .afl-hidden{
+    display:none;
+}
+
+
+.afl-clear{
+    clear:both;
+}
+
+/****************Form elements****************/
+
+#afl-form-options textarea{
+    padding: 7px;
+    width: 260px;
+    color: #586970;
+    height:120px;
+    line-height: 1.5em;
+    font-size: 11px;
+}
+
+#wpwrap .afl-style-wrap input{
+    padding: 8px;
+    width: 260px;
+    color: #586970;
+}
+
+#wpwrap .afl-upload-style-wrap input{
+    width: 180px;
+}
+
+#wpwrap .afl-upload-style-wrap .afl-button{
+    font-size: 11px;
+    line-height: 27px;
+    padding: 0;
+    text-align: center;
+    width: 75px;
+}
+
+.afl-advanced-upload .afl-upload-input {
+    display:none;
+}
+
+#wpwrap .afl-style-wrap select{
+    color: #586970;
+    height: 32px;
+    padding: 7px;
+    width: 260px;
+    background: #fff;
+    position: relative;
+    z-index: 10;
+    opacity: 0;
+    cursor: pointer;
+	font-weight: 100;
+	font-size: 11px;
+}
+
+#wpwrap .afl-style-wrap .afl-select-unify, #wpwrap .afl-style-wrap .afl-select-webfont{
+    color: #586970;
+    display:inline-block;
+    border:1px solid #E2EAED;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    z-index: 1;
+    background: #fff url(images/layout/select.png) no-repeat right center;
+    cursor: pointer;
+    position: relative;
+}
+
+.afl-select-fake-val {
+    color: #586970;
+    font-size: 11px;
+	font-weight: 100;
+    left: 7px;
+    line-height: 32px;
+    overflow: hidden;
+    position: absolute;
+    top: 1px;
+    width: 83%;
+    z-index: 2;
+    height: 31px;
+}
+
+#wpwrap .afl-multiple-select .afl-select-unify{
+    background: none;
+    border:none;
+}
+
+#wpwrap .afl-multiple-select .afl-select-unify .afl-select-fake-val{
+    display: none;
+}
+
+#wpwrap .afl-multiple-select select{
+    opacity: 1;
+}
+
+#wpwrap .afl-style-wrap option {
+    padding: 5px;
+}
+
+.afl-radio-wrap{
+    display:block;
+    padding-bottom:3px;
+}
+
+.afl-radio-wrap label{
+    color: #586970;
+    display: inline-block;
+    font-size: 11px;
+    padding: 0 0 0 5px;
+    vertical-align: bottom;
+}
+
+#wpwrap div .afl-auto-detector input{
+    width:135px;
+}
+
+.afl-auto-detector .afl-color-picker_div{
+    right:auto;
+    left:113px;
+}
+
+
+#wpwrap  div .afl-autodetect, #wpwrap  div .afl-autodetect:focus{
+    margin-left:10px;
+    font-size: 11px;
+    line-height: 27px;
+    padding: 0;
+    text-align: center;
+    width: 110px;
+}
+
+.afl-auto-detector .afl-loading{
+    right: 155px;
+    top: 2px;
+}
+
+
+#wpwrap .afl-multiple-select select{
+    height:130px;
+}
+
+#wpwrap .afl-multiple-select{
+    background: transparent url(images/layout/bg-style-wrap.png) repeat-x top center;
+}
+
+
+/*3 columns*/
+
+#wpwrap .afl-section.afl-3columns .afl-description, #wpwrap .afl-section.afl-3columns .afl-control{
+    width:auto;
+    float:none;
+    clear: both;
+}
+
+#wpwrap #afl-form-options .afl-section.afl-3columns{
+    float:left;
+    width:30.3%;
+    margin:0;;
+    clear:none;
+    padding:10px 0% 10px 3%;
+}
+
+#wpwrap #afl-form-options .afl-section.afl-3columns select, #wpwrap .afl-options-page .afl-section.afl-3columns input{
+    width:180px;
+}
+
+#wpwrap #afl-form-options .afl-section.afl-3columns .afl-style-wrap{
+    margin-right:0;
+}
+
+#wpwrap #afl-page-background-tab .afl-section.afl-3columns .afl-style-wrap{
+     height:35px;
+ }
+
+#wpwrap #afl-form-options .afl-section.afl-3columns.afl-col-1{
+    clear:both;
+}
+
+#wpwrap #afl-form-options .afl-section.afl-3columns.afl-col-3 input, #wpwrap #afl-page-background-tab .afl-section.afl-3columns.afl-col-2 input{
+    width:120px;
+}
+#wpwrap #afl-form-options .afl-section.afl-3columns.afl-col-3 a.afl-uploader, #wpwrap #afl-page-background-tab .afl-section.afl-3columns.afl-col-2 a.afl-uploader{
+    padding:6px;
+}
+
+#wpwrap #afl-options-page .afl-section.afl-3columns.afl-col-1{
+	clear:both;
+}
+
+/*2 columns*/
+
+#wpwrap .afl-section.afl-2columns .afl-description, #wpwrap .afl-section.afl-2columns .afl-control{
+    width:auto;
+    float:none;
+    clear: both;
+}
+
+#wpwrap #afl-options-page .afl-section.afl-2columns{
+    float:left;
+    width:45%;
+    margin:0;
+    clear:none;
+    padding:10px 0% 10px 3%;
+}
+
+#wpwrap #afl-options-page .afl-section.afl-2columns select, #wpwrap #afl-options-page .afl-section.afl-2columns input{
+}
+
+#wpwrap #afl-options-page .afl-section.afl-2columns .afl-style-wrap{
+
+}
+
+/* Colors Options */
+
+div .afl_link_controller .afl_description, div .afl_link_controller .afl_control{
+	float:none;
+	width:100%;
+}
+
+
+.link_controller_list a{
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	display: inline-block;
+	font-family: "Trebuchet MS",sans-serif;
+	padding: 6px 0;
+	background: #5C951E url(../images/layout/bg-button.png) repeat-x top left;
+	color: white;
+	cursor: pointer;
+	outline: none;
+	font-size: 12px;
+	text-decoration: none;
+	margin:3px 3px 0 0;
+	opacity:0.3;
+	width:70px;
+	text-align: center;
+}
+
+.link_controller_list a.afl_link_controller_active{
+	opacity: 1;
+}
+
+/* Extra post options */
+div.inside > label {
+    display:block;
+    float:left;
+    margin-right:25px;
+}
+
+/* Turbo editor */
+#afl-form-options .slider .afl-section { border:0; }
+
+#afl-edit-composer-item-form #afl-form-options {
+	background: none repeat scroll 0 0 #F3F3F3;
+	border: 1px solid #E2EAED;
+	margin: 0;
+	position: relative;
+	width: 100%;
+	z-index: 2;
+}
+#afl-edit-composer-item-form #afl-form-options .afl-options-container {	margin-bottom: -1px; }
+#afl-form-options .slider .afl-section, #afl-form-options .te-form .afl-section {
+	clear: both;
+	float: left;
+	padding: 20px;
+	position: relative;
+	width: 100%;
+}
+#wpwrap #afl-form-options .slider .afl-description { width:56%; }
+#wpwrap #afl-form-options .slider .afl-description .afl-image-preview {	padding-top: 12px; }
+#wpwrap #afl-form-options .slider .afl-description input { width:60%; }
+.afl-image-preview, .afl-image-preview img {margin-top:5px;}
+#wpwrap .slider .afl-style-wrap input, #wpwrap .te-form .afl-style-wrap input {
+	color: #586970;
+	padding: 8px;
+	width: 100%;
+	font-weight:100;
+}
+#afl-form-options .slider textarea, #afl-form-options .te-form textarea {
+	color: #586970;
+	font-size: 11px;
+	height: 120px;
+	line-height: 1.5em;
+	padding: 7px;
+	width: 100%;
+	font-weight:100;
+}
+#afl-form-options .slider .afl-style-wrap, #afl-form-options .te-form .afl-style-wrap {
+	display: block;
+	background: transparent;
+}
+#wpwrap #afl-form-options .slider .afl-section.afl-3columns select, #wpwrap #afl-form-options .slider .afl-section.afl-3columns input{ width: 100%; }
+#wpwrap #afl-form-options .slider .afl-section.afl-3columns.afl-col-3 input{ width: 60%; }
+
+#afl-form-options .te-form .afl-section.afl-2columns {
+	float:left;
+	width:45%;
+	margin:0;
+	clear:none;
+	padding:10px 0 10px 20px;
+	border: 0;
+}
+#wpwrap #afl-form-options .te-form .afl-options-container > .afl-section .afl-control {	width:70%; }
+#wpwrap #afl-form-options .te-form .afl-options-container > .afl-section.te-editor {
+    width:100%;
+    padding:0;
+    margin: 0;
+}
+#wpwrap #afl-form-options .te-form .afl-options-container > .afl-section.te-editor .afl-control { width:100%; }
+#wpwrap #afl-form-options .te-form .afl-options-container > .afl-section.te-editor .afl-control textarea { margin:0 10px; }
+#wpwrap #afl-form-options .te-form .afl-description { width:30%; }
+#wpwrap #afl-form-options .te-form .afl-2columns.te-upload input { width:57%; }
+
+.dd-options li {text-align: center; margin-bottom: 0;}
+.title-icon-list {width: 60px !important;}

@@ -1,0 +1,1045 @@
+/* 
+    Document   : admin-style
+    Created on : Mar 28, 2011, 10:47:42 AM
+    Author     : Sergey
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+/* Composer styles */
+
+/*.postbox {
+	border:#dfdfdf 1px solid;
+	border-radius:5px;
+	-moz-border-radius:5px;
+ 	-webkit-border-radius:5px;
+	background:#f6f6f6;
+}
+*/
+a{
+	text-decoration:none;
+}
+.logo-container{
+	background:url(images/logo-container-bg.gif) 0 0 repeat;
+	padding:20px 23px 19px 29px;
+	border-radius:5px 5px 0 0;
+	-moz-border-radius:5px 5px 0 0;
+ 	-webkit-border-radius:5px 5px 0 0;
+	border:#dfdfdf 1px solid;
+	overflow:hidden;
+}
+.logo{
+	width:235px;
+	height:59px;
+	float:left;
+	background:url(images/logo.png) 0 0 no-repeat;
+}
+
+.swich-button-container{
+	float:right;
+	font-family:Droid Sans;
+	font-size:14px;
+	line-height:1.2em;
+	color:#404040;
+	padding-top:19px;
+}
+
+.swich-button-container strong{
+	float:left;
+	padding-top:5px;
+	font-weight:normal;
+}
+
+.switch{
+	width:66px;
+	height:26px;
+	float:right;
+	font-size:0 !important;
+	line-height:0 !important;
+	padding:0 !important;
+	margin:0 !important;
+	border:none !important;
+	
+}
+
+p#composer-switch{
+	padding:0px 0 0 7px !important;
+	margin:0 !important;
+	display:inline-block;
+}
+
+p#composer-switch a.on{
+	background:url(images/switch-on.png) 0 0 no-repeat;
+}
+p#composer-switch a.off{
+	background:url(images/switch-off.png) 0 0 no-repeat;
+}
+
+/* Items*/
+li.editor-item{
+	height:27px;
+	background:url(images/item-bg.gif) 0 0 repeat-x;
+	border-radius:2px;
+	-moz-border-radius:2px;
+ 	-webkit-border-radius:2px;
+	border:#c9c9c9 1px solid;
+	padding:3px 3px 3px 15px;
+	position:relative;
+	margin-bottom:9px;
+	overflow:hidden;
+	
+}
+
+ul#afl-composer-base-items li.divider{
+	background:none;
+	border:none;
+	padding:0;
+	background:url(images/divider-item-tail.gif) 0 18px repeat-x;
+	height:35px;
+	margin:19px 0 19px 0;
+}
+
+ul#afl-composer-base-items li.divider strong{
+	display:none;
+}
+ul#afl-composer-base-items li.divider div.right-side{
+	background:url(images/divider-item-bg.png) 0 0 no-repeat;
+	width:198px;
+	float:right;
+	padding:4px 4px 4px 0;
+	text-align:right;
+	
+}
+ul#afl-composer-base-items li.divider div.right-side a{
+	display:inline-block;
+	float:none;
+	vertical-align:top;
+	
+}
+ul#afl-composer-base-items li.divider div.right-side a.wrapit{
+	
+}
+
+ul#afl-composer-base-items li.divider div.left-side{
+}
+
+li.editor-item>span{
+	height:35px;
+	width:3px;
+	display:block;
+	position:absolute;
+	
+	background:url(images/columns-indicator.gif) 0 0 no-repeat;
+	top:-1px;
+	left:-1px;
+}
+ul#afl-composer-base-items li.post-slider span, ul#afl-composer-base-items li.nivo-slider span, ul#afl-composer-base-items li.kwick-slider span, ul#afl-composer-base-items li.text_slider span, ul#afl-composer-base-items li.roundaboutslider span, ul#afl-composer-base-items li.anything_slider span, ul#afl-composer-base-items li.post_slider span, ul#afl-composer-base-items li.thumbnail-slider span{
+	background:url(images/nivo-indicator.gif) 0 0 no-repeat;
+}
+
+ul#afl-composer-base-items li.twitter span{
+	background:url(images/twitter-indicator.gif) 0 0 no-repeat;
+}
+ul#afl-composer-base-items li.divider span{
+	display:none;
+}
+ul#afl-composer-base-items li.recent_posts span{
+	background:url(images/recent-posts-indicator.gif) 0 0 no-repeat;
+}
+
+ul#afl-composer-base-items li.slogan span{
+	background:url(images/slogan-indicator.gif) 0 0 no-repeat;
+}
+ul#afl-composer-base-items li.posts_strip span{
+	background:url(images/post-strip-indicator.gif) 0 0 no-repeat;
+}
+li.editor-item>div.left-side>strong{
+	float:left;
+	padding:7px 0 0 0;
+	font-family:"Droid Sans", sans-serif;
+}
+li.editor-item>div.left-side>strong>a{
+	color:#0c7297;
+}
+li.editor-item>div.left-side>strong>a:hover{
+	text-decoration:underline;
+}
+/*
+li.editor-item input[type='text'], #afl-edit-composer-item-form input[type='text'], #afl-edit-composer-item-form input[type='text']{
+	background:url(images/input-bg.gif) 0 0 repeat-x #efefef;
+	border:#dcdcdc 1px solid;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:11px;
+	line-height:1.2em;
+	color:#b0b0b0;
+	font-style:italic;
+	padding:6px 5px 5px 5px;
+	box-shadow: 0 0 1px #f0f0f0;
+	-moz-box-shadow: 0 0px 1px #f0f0f0;
+	-webkit-box-shadow: 0 0px 1px #f0f0f0;
+	float:left;
+	display:none;
+	float:left;
+	margin:0 5px 0 4px;
+	display:none;
+}
+#afl-edit-composer-item-form input[name="twitter_name"]{
+	width:165px !important;
+}
+#afl-edit-composer-item-form input[type="text"]{
+	float:left;
+	display:block;
+	font-family:Droid Sans;
+	font-style:normal;
+	background:url(images/input-bg1.gif) 0 0 repeat-x #fff;
+	color:#b2b2b2;
+	font-size:12px;
+}*/
+.form-table input[type="text"]{
+	float:left !important;
+}
+
+.jquery-selectbox>span{
+	margin:0 !important;
+	padding:0 !important;
+	display:block;
+	font-weight:normal;
+}
+
+a.name-apply{
+	display:inline-block;
+	margin-top:8px;
+	cursor:pointer;
+}
+
+
+
+
+/* Right side */
+.right-side{
+	float:right;
+}
+
+/* Item buttons*/
+.wrapit{
+	background:url(images/butt-wrapit-bg.gif) 0 0 repeat-x #d0e6ef;
+	float:left;
+	padding:7px 12px 5px 13px; vertical-align:top;
+	border:#afc6cd 1px solid;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	line-height:1.2em;
+	color:#6b97a8;
+	text-shadow: 0px 1px 0px rgba(255,255,255,.4);
+	
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	
+	box-shadow: 0 0px 1px #f0f0f0;
+	-moz-box-shadow: 0 0px 1px #f0f0f0;
+	-webkit-box-shadow: 0 0px 1px #f0f0f0;
+}
+
+#afl-composer-base-items a.edit, #afl-composer-base-items a.delete{
+	float:left;
+	width:29px;
+	height:28px;
+	font-size:0px !important;
+	line-height:0px !important;
+}
+#afl-composer-base-items a.edit{
+	background:url(images/butt-edit.gif) 0 0 no-repeat;
+	margin-left:3px;
+}
+#afl-composer-base-items a.edit:hover{
+	background:url(images/butt-edit-hover.gif) 0 0 no-repeat;
+}
+#afl-composer-base-items a.delete{
+	background:url(images/butt-del.gif) 0 0 no-repeat;
+	margin-left:2px;
+}
+#afl-composer-base-items a.delete:hover{
+	background:url(images/butt-del-hover.gif) 0 0 no-repeat;
+}
+
+.item-container{position:relative;}
+#afl-composer-base-data{
+	border-bottom:#dfdfdf 1px solid;
+	background:#f6f6f6;
+	position:relative;
+	clear:both;
+	width:100%;
+	
+}
+.conainer-table{
+	border:none;
+}
+.conainer-table td{
+	vertical-align:top;
+}
+.conainer-table td.left-side-cell{
+	background:#f6f6f6;
+	height:100%;
+	border:none;
+	border-right:#dfdfdf 1px solid;
+	border-collapse:collapse;
+}
+.conainer-table td.right-side-cell{
+	background:#fff;
+	height:100%;
+	border:none;
+	border-collapse:collapse;
+}
+#afl-composer-base-items{
+	background:#f6f6f6;
+	padding:19px 18px 0 19px;
+}
+
+/* Toolbox */
+
+#afl-composer-toolbox-items{
+	background:#fff;
+	padding:8px 9px 0 10px;
+	font-family:Droid Sans;
+	font-size:12px;
+	line-height:30px;
+	color:#555;
+}
+.toolbox-inner{
+	padding:14px 0 0 10px !important;
+}
+.toolbox-inner-item{
+	padding:4px 0 6px 0;
+	margin-bottom:6px;
+	position:relative;
+	line-height:1.2em;
+}
+.toolbox-inner a{
+	color:#555 !important;
+	display:inline-block !important;
+	position:relative;
+	overflow:hidden;
+	
+}
+.toolbox-inner>div>a:hover{
+	text-decoration:underline;
+}
+.toolbox-inner a:hover>em>span{
+	text-decoration:none !important;
+}
+.toolbox-inner #afl_nivo-slider{
+	background:url(images/nivo-icon.png) right center no-repeat;
+}
+.toolbox-inner #afl_thumbnail-slider{
+	background:url(images/thumbnail.png) right center no-repeat;
+}
+.toolbox-inner #afl_cool-slider{
+	background:url(images/thumbnail.png) right center no-repeat;
+}
+.toolbox-inner #afl_kwick-slider{
+	background:url(images/kwiks-icon.png) right 0 no-repeat;
+}
+.toolbox-inner #afl_roundaboutslider{
+	background:url(images/roundabout-icon.png) right 0 no-repeat;
+}
+.toolbox-inner #afl_text_slider{
+	background:url(images/text-slider-icon.png) right 0 no-repeat;
+}
+.toolbox-inner #afl_anything_slider{
+	background:url(images/anything-icon.png) right 0 no-repeat;
+}
+.toolbox-inner #afl_post_slider{
+	background:url(images/post-slider-icon.png) right 0 no-repeat;
+}
+.toolbox-inner #afl_full_width{
+	background:url(images/full-width.png) right center no-repeat;
+}
+.toolbox-inner #afl_2_columns{
+	background:url(images/two-columns.png) right center no-repeat;
+}
+.toolbox-inner #afl_3_columns{
+	background:url(images/three-columns.png) right center no-repeat;
+}
+.toolbox-inner #afl_4_columns{
+	background:url(images/four-columns.png) right center no-repeat;
+}
+.toolbox-inner #afl_one_third_block{
+	background:url(images/one-third.png) right center no-repeat;
+}
+.toolbox-inner #afl_one_third_last_block{
+	background:url(images/one-third-last.png) right center no-repeat;
+}
+.toolbox-inner #afl_slogan{
+	background:url(images/slogan.png) right center no-repeat;
+}
+.toolbox-inner #afl_divider{
+	background:url(images/divider.png) right center no-repeat;
+}
+.toolbox-inner #afl_twitter{
+	background:url(images/twitter.png) right center no-repeat;
+}
+.toolbox-inner #afl_recent_posts{
+	background:url(images/recent-posts.png) right center no-repeat;
+}
+.toolbox-inner #afl_posts_strip{
+	background:url(images/post-strip.png) right center no-repeat;
+}
+/* tooltip */
+#tooltip0{
+}
+.tooltip{
+	
+	text-decoration:none;
+	opacity:0;
+	font-style:normal;
+	background:#fff;
+	position:absolute;
+	border:1px solid #d6d9dc;
+	width:152px;
+	color:#b2b2b2;
+	font-size:11px;
+	line-height:1.2em;
+	font-family:Tahoma, Geneva, sans-serif;
+	padding:11px 13px 10px 9px;
+	display:inline-block;
+	top:-24px;
+	left:100px;
+	
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	
+	box-shadow: 0 1px 2px #ecefef;
+	-moz-box-shadow: 0 1px 2px #ecefef;
+	-webkit-box-shadow: 0 1px 2px #ecefef;
+	
+	z-index:99;
+	
+}
+
+.tooltip span{
+	display:block;
+	overflow:hidden;
+	text-decoration:none;
+}
+
+.tooltip b{
+	display:block;
+	position:absolute;
+	width:8px;
+	height:11px;
+	background:url(images/tooltip-bg.gif) 0 0 no-repeat;
+	top:50%;
+	left:-7px;
+	margin-top:-5px;
+	z-index:99;
+}
+
+.tooltip img{
+	float:left;
+	margin-right:8px;
+}
+
+#afl-composer-toolbox-items strong{
+	display:block;
+	background:none;
+	font-weight:normal;
+	position:relative;
+	margin-bottom:12px;
+}
+#afl-composer-toolbox-items strong a{
+	display:inline-block;
+	padding:0 0 0 10px;
+	color:#555;
+}
+#afl-composer-toolbox-items strong a:hover{
+	text-decoration:underline;
+}
+
+#afl-composer-toolbox-items strong span{
+	margin:0px;
+	padding:0px;
+	display:block;
+	position:absolute;
+	top:5px;
+	left:0px;
+	width:5px;
+	height:5px;
+	background:url(images/indicator-off.gif) 0 0 no-repeat;
+}
+.ui-accordion-content{
+	background:none;
+	padding-bottom:10px !important;
+}
+.ui-accordion-content a{
+	color:#555;
+}
+.ui-accordion-content a:hover{
+	text-decoration:underline;
+}
+
+
+#afl-composer-toolbox-items strong.ui-state-active span{
+	background:url(images/indicator-on.gif) 0 0 no-repeat;
+}
+
+.toolbox-logo{
+	background:url(images/toolbox-logo.png) center 0 no-repeat;
+	height:44px;
+	padding-bottom:4px;
+	border-bottom:#dfdfdf 1px solid;
+}
+
+
+#afl-loader{
+
+	position:absolute;
+	background:url(../../images/loading.gif) center center no-repeat;
+	top:0px;
+	bottom:0px;
+	width:100%;
+
+}
+.form-table{width:100%;}
+.form-table tr{width:100%;}
+.form-table th{width:19%;}
+/*.form-table td{width:81%;}*/
+input.regular-text, #adduser .form-field input{width:100%;}
+#afl-theme-options ul.options-tab li{
+    display:inline;
+}
+/*------table options --------*/
+#afl-edit-composer-item-form .form-table{
+	border: 2px solid #f6f6f6;
+	border-bottom:#dfdfdf 1px solid;
+	margin:0;
+	
+}
+#afl-edit-composer-item-form .form-table th{
+	font-family:Droid Sans;
+	text-shadow:none;
+	color:#666;
+	font-size:12px;
+	vertical-align:middle;
+	padding-left:20px;
+	
+}
+#afl-edit-composer-item-form .form-table td{
+	color:#aeaeae;
+	padding-top:13px;
+	padding-bottom:13px;
+	vertical-align:middle;
+}
+
+#afl-edit-composer-item-form .form-table input, .slider .form-table input{
+	padding:4px 6px 4px 6px !important;
+	margin:0;
+	display:inline-block;
+	float:left;
+	margin-right:9px !important;
+}
+
+#afl-edit-composer-item-form .form-table input[name$="width"], #afl-edit-composer-item-form .form-table input[name$="height"], #afl-edit-composer-item-form .form-table input[name$="rows"], #afl-edit-composer-item-form .form-table input[name$="length"], #afl-edit-composer-item-form .form-table input[name$="max"], #afl-edit-composer-item-form .form-table input[name$="spacing"], #afl-edit-composer-item-form .form-table input[name$="amount"]{
+	width:53px;
+}
+#afl-edit-composer-item-form .form-table input[name$="delay"], #afl-edit-composer-item-form .form-table input[name$="speed"], #afl-edit-composer-item-form .form-table input[name$="time"], #afl-edit-composer-item-form .form-table input[name$="duration"]{
+	width:73px;
+}
+/*----Controls-------*/
+#afl-edit-composer-item-form div.controls{
+	padding:19px 0 0 20px;
+	overflow:hidden;
+}
+#afl-edit-composer-item-form div.controls span{
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+#afl-edit-composer-item-form div.controls span a{
+	display:inline-block;
+}
+#afl-edit-composer-item-form div.controls .save-bt{
+	margin-right:9px;
+}
+/*----item form-----*/
+#afl-edit-composer-item-form{
+	background:#f6f6f6;
+	color:#666;
+	overflow:hidden;
+	padding-bottom:52px;
+}
+
+#afl-edit-composer-item-form span.mceIcon, #afl-edit-composer-item-form span.mce_spellchecker{margin: 0;}
+#afl-edit-composer-item-tabs span{
+	margin:0;
+}
+.mceEditor span{
+	margin:0 !important;
+}
+
+#afl-edit-composer-item-tabs{padding:0;margin:0;margin-bottom:20px;}
+
+#afl-theme-options ul.options-tab li.active a, #afl-theme-options ul.options-tab a:hover {
+    background-color: #FFFFFF;
+    color: #21759B;
+}
+
+#afl_metabox_composer_base{
+	width:100%;
+	border:none;
+	background:none !important;
+}
+#normal-sortables{
+	border:#dfdfdf 1px solid;
+	border-top:none;
+	background:#fff;
+	margin-top:-12px;
+	 border-radius: 0px 0px 6px 6px;
+	 -moz-border-radius: 0px 0px 6px 6px;
+	 -webkit-border-radius: 0px 0px 6px 6px;
+}
+#afl_metabox_composer_base>div.inside{
+	margin:0 !important;
+	background:none !important;
+	padding:0 0 70px 0 !important;
+}
+#poststuff .inside p{margin-left:0px;}
+#afl-theme-options ul.options-tab li a:link, #afl-theme-options ul.options-tab li a:visited {
+    border: 1px solid #D8D8D8;
+    color: #797979;
+    display: inline-block;
+    font-family: Georgia,Serif;
+    font-size: 13px;
+    padding: 10px 10px 10px 15px;
+    text-decoration: none;
+}
+
+input[type="checkbox"]{width:10px;}
+
+#afl_metabox_composer_base .item-container{
+    min-height: 200px;
+}
+
+#afl-composer-base-items li{
+    text-decoration: none;
+}
+
+.ui-buttons{
+	float:left;
+	width:8%;
+}
+
+a.ui-icon {
+    float: right;
+}
+
+#afl-composer-base-data .button-primary{
+    /*margin-top: 10px;*/
+}
+
+
+.regular-text[type='checkbox']{
+	text-align:left;
+	width:10px;
+	}
+/* begin editor */
+#edSideButtonPreview, #edSideButtonHTML {
+ border: 1px solid #DEDEDE;
+ border-bottom: 1px solid #fefefe;
+ background:#fefefe;
+ border-radius: 3px 3px 0 0;
+ -moz-border-radius: 3px 3px 0 0;
+ -webkit-border-radius: 3px 3px 0 0;
+ cursor: pointer;
+ height: 18px;
+ margin: 5px 5px 0px 0px;
+ padding: 4px 5px 2px;
+}
+#edSideButtonPreview.active, #edSideButtonHTML.active {
+ background:#e8e8e8;
+ border-bottom: 1px solid #e8e8e8;
+}
+/*----tabs-----*/
+.ui-tabs, .full-width { position: relative; zoom: 1; }
+.ui-tabs .ui-tabs-nav { margin: 0; padding:17px 0 0 19px;margin-bottom:-1px; }
+.ui-tabs .ui-tabs-nav li , .full-width li{ 
+	list-style: none;
+	float: left;
+	position: relative;
+	margin: 0 4px 0 0;
+	border-bottom: 0 !important;
+	padding: 0;
+	white-space: nowrap;
+	 }
+.ui-tabs .ui-tabs-nav li a, .full-width li a {
+	margin:0;
+	float: left;
+	text-decoration: none;
+	background:url(images/tabs-bg.gif) 0 0 repeat;
+	padding:10px 14px 11px 19px;
+	font-family:Droid Sans;
+	font-weight:bold;
+	border-radius: 3px 3px 0 0;
+	-moz-border-radius: 3px 3px 0 0;
+	-webkit-border-radius: 3px 3px 0 0;
+	border:#dfdfdf 1px solid;
+	border-bottom:none;
+	cursor:pointer;
+	color:#666;
+	 }
+ a.afl-add-slide{
+	 margin: 0;
+	 text-decoration: none;
+	 background:url(images/tabs-bg.gif) 0 0 repeat;
+	 padding:10px 14px 12px 19px;
+	 font-family:Droid Sans;
+	 font-weight:bold;
+	 display:inline-block;
+	 border-radius: 3px 3px 0 0;
+	 -moz-border-radius: 3px 3px 0 0;
+	 -webkit-border-radius: 3px 3px 0 0;
+	 border:#dfdfdf 1px solid;
+	 border-bottom:none;
+	 cursor:pointer;
+	 color:#666;
+ }
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a{
+	background:#f6f6f6;
+	color:#666;
+	border-bottom:none;
+	padding-bottom:12px;
+}
+.ui-tabs .ui-tabs-nav li a:hover, a.afl-add-slide:hover{
+	background:#f6f6f6;
+}
+a.afl-add-slide:hover, a.afl-add-slide:active{
+	color:#666 !important;
+}
+.settings{
+	float:right !important;
+	padding-right:19px !important;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected { margin-bottom: 0;}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+
+.ui-tabs .ui-tabs-panel, .full-width { 
+	display: block;
+	padding: 0;
+	background: none; 
+	border-top:#dfdfdf 1px solid;
+	font-weight:bold;
+	}
+.full-width { 
+	border-top:none;
+}
+.ui-tabs .ui-tabs-hide { display: none !important; }
+.ui-tabs-panel div.slide-item, .full-width div.slide-item{
+	border-bottom:#dfdfdf 1px solid;
+	padding:9px 18px 10px 19px;
+	overflow:hidden;
+}
+.ui-tabs-panel div.select-item, .full-width div.select-item{
+    border-bottom:#dfdfdf 1px solid;
+    padding:9px 18px 10px 19px;
+    height:40px;
+}
+.ui-tabs-panel div.select-item .jquery-selectbox-list, .full-width div.select-item .jquery-selectbox-list{
+    position:absolute;
+}
+/*
+.ui-tabs-panel input[type="text"], .full-width input[type="text"]{
+	float:left;
+	margin:0;
+}*/
+.ui-tabs-panel input[name*="title"], .full-width input[name*="title"]{
+	width:434px;
+}
+#afl-composer-base-data input[name*="title"], #afl-composer-base-data input[name*="text"]{
+	width:433px;
+}
+/*#afl-edit-composer-item-form input[name$="title"]{
+	width:165px !important;
+}*/
+.ui-tabs-panel input[name*="icon"], .full-width input[name*="icon"]{
+	width:309px;
+}
+.text-slider input[name*="icon"]{
+	width:405px;
+}
+.ui-tabs-panel input[name*="[title]"]{
+	width:404px;
+}
+.ui-tabs-panel input[name*="[url]"]{
+	width:332px;
+}
+input[name*="button_text"]{
+	width:434px;
+}
+input[name*="button_link"]{
+	width:309px;
+}
+textarea[name$="slogan_text"]{
+	width:404px;
+	height:83px;
+}
+.ui-tabs-panel .insrt-butt-cont, .full-width .insrt-butt-cont{
+	float:left;
+	padding:4px 0 0 4px;
+}
+.image_upload_button,  .image_upload_wthb_button{
+	padding:0;
+	margin:0;
+	font-size:0;
+	border:none;
+	line-height:0;
+	width:22px;
+	height:21px;
+	background:url(images/upload-butt-bg.gif) 0 0 no-repeat;
+}
+.ui-tabs-panel .image_upload_button{
+}
+.ui-tabs-panel .img-buttons,  .full-width .img-buttons{
+	float:left;
+	padding:4px 0 0 5px;
+}
+.slider .img-buttons{
+	padding:2px 0 0 5px;
+}
+.text-slider .img-buttons{
+	padding:4px 0 0 5px;
+}
+.insrt-butt-cont .thickbox{
+	background:url(images/insert-img-butt-bg.gif) 0 0 repeat-x #fbfbfb;
+	border:#bbb 1px solid;
+	display:inline-block;
+	border-radius:10px;
+	 -moz-border-radius:10px;
+	 -webkit-border-radius:10px;
+	 color:#464646;
+	 font-size:12px;
+	 line-height:1.2em;
+	 font-family:Droid Sans;
+	 padding:2px 11px 1px 12px;
+}
+.ui-tabs label, .ui-tabs-panel label,  .full-width label{
+	float:left;
+	width:104px;
+	padding-top:7px;
+}
+
+.slider #afl-edit-item-tabs-content0 .form-table tr:nth-child(odd){
+	border-color:#f6f6f6;
+	
+}
+.slider{
+	margin-bottom:0 !important;
+}
+/*-------Editor---------*/
+.ui-tabs-panel .mceEditor, .te-form .mceEditor{
+	width:100%;
+	display:block;
+}
+.ui-tabs-panel .mceIframeContainer, .te-form .mceIframeContainer{
+	border:#c9c9c9 1px solid;
+	border-top:none;
+}
+.ui-tabs-panel .mceIframeContainer iframe,  .te-form .mceIframeContainer iframe{
+	background:url(images/input-bg1.gif) 0 0 repeat-x #fdfdfd;
+}
+.ui-tabs-panel .editor{
+	background:#eee;
+}
+.ui-tabs-panel .mceToolbar, .mceStatusbar, .te-form .mceToolbar{
+	background:#e8e8e8 !important;
+}
+.ui-tabs-panel .mceStatusbar, .te-form .mceStatusbar{
+	 background:#fff !important;
+	 border:#c9c9c9 1px solid !important;
+	 border-top:none !important;
+	 border-radius:0 0 3px 3px;
+	 -moz-border-radius:0 0 3px 3px;
+	 -webkit-border-radius:0 0 3px 3px;
+	 
+	  padding:7px 0 5px 6px !important;
+ }
+.ui-tabs-panel .mceStatusbar a, .te-form .mceStatusbar a{
+	color:#b2b2b2 !important;
+}
+.ui-tabs-panel .mceStatusbar>div, .te-form .mceStatusbar>div{
+	 color:#b2b2b2 !important;
+}
+.ui-tabs-panel td.mceToolbar span, .te-form td.mceToolbar span{
+	margin:0;
+	padding:0;
+}
+.ui-tabs-panel .mceLayout, .te-form .mceLayout{
+	min-height:203px !important;
+}
+.mceSplitButton .mceLast a{
+	float:left !important;
+}
+.afl-delete-slide{
+	background:url(images/text-slide-del-bt.gif) 0 0 repeat-x #f4250a;
+	text-shadow:none;
+	color:#fff !important;
+	border:#b02100 1px solid !important;
+}
+.afl-delete-slide:active{
+	background:url(images/text-slide-del-bt.gif) 0 0 repeat-x #f4250a;
+}
+
+.add-del-butts{
+	padding:12px 0 0 20px;
+}
+.text-slide>div{
+	overflow:hidden;
+}
+#afl-wrapping-setup{
+	padding:20px;
+}
+
+#afl-form-options span.mceEditor > table{
+    margin: 31px 0 0 10px !important;
+    border: 1px solid #e8e8e8 !important;
+    border-radius: 3px 3px 0 0;
+
+}
+
+p.refresh-content{
+}
+#afl_metabox_composer_base #afl-loader{
+	background:url(images/preloader.gif) center center no-repeat #f6f6f6;
+	z-index:999;
+}
+/*-------------- General Settings ---------------------*/
+#afl_tab_general{
+	border-top:none;
+}
+#afl_tab_general .form-table{
+	margin-top:0px;
+	border-top:none;
+}
+#afl_tab_general .form-table th{
+	width:10%;
+}
+#afl-theme-options .ui-tabs-nav{
+	overflow:hidden;
+	border:none;
+	border-left:#dfdfdf 1px solid;
+	border-right:#dfdfdf 1px solid;
+}
+
+#afl_tab_general{
+	padding-top:0;
+}
+#afl_tab_general .ui-tabs .ui-tabs-nav li.ui-tabs-selected{
+	
+}
+#afl-form-options{
+	border:none;
+}
+#afl-theme-options ul.options-tab li.ui-tabs-selected a{
+	border-bottom:none !important;
+	padding-bottom:11px;
+	background:#f6f6f6;
+}
+#afl-theme-options ul.options-tab li a:hover{
+	background:#f6f6f6;
+}
+#afl_tab_general label{
+	float:none;
+	padding:none;
+	width:auto;
+}
+#afl_tab_general .img-buttons, #afl_tab_social .img-buttons{
+    margin-top: -13px;
+	padding-top:2px;
+}
+#afl_tab_general input, #afl_tab_general textarea{
+	width:309px;
+}
+#afl-theme-options input[value="Save changes"]{
+	margin-top:20px;
+}
+#afl_tab_social{
+	border:#dfdfdf 1px solid;
+	padding:20px;
+	background:#f6f6f6;
+}
+#afl_tab_social .form-table-social td{
+	padding:5px 20px 5px 0;
+}
+
+#afl_tab_social .form-table-social td.controls{
+	padding-right:0;
+	text-align:center;
+}
+
+#afl_tab_social input{
+	width:auto;
+}
+#afl_tab_social input[name*=image]{
+	width:309px;
+}
+td label, th label{
+	font-weight:normal;
+}
+#afl-theme-options{
+	margin:50px 20px 0 0;
+	
+}
+*+html #afl-form-options .form-table{
+	border:#dfdfdf 1px solid;
+	background:#f6f6f6 !important;
+	padding-bottom:20px;
+}
+.file-preloader{
+	height:25px;
+	width:25px;
+	background:url(images/file-preloader.gif) 0 0 no-repeat;
+	display:inline-block;
+}
+/* end editor */
+
+ul.composer-sidebar-items {
+    min-height:20px;
+    /*background-color: yellow;*/
+    /*display:block;*/
+}
+li.editor-item.sidebar{
+    min-height: 27px;
+    height: auto;
+}
+.ui-state-highlight { height: 1.5em; line-height: 1.2em; background-color: yellow; }
+
+#custom-page-slides span{
+    margin: 10px 5px 0 0;
+    display: inline-block;
+}
+
+.no-tabs li:not(.settings){
+	display:none;
+}
+
+.no-tabs a.afl-add-slide{
+	display:none;
+}
+
+.custom-part-background-image{
+               min-height: 100px;
+               border: 1px solid #DFDFDF;
+             }
+             #custom-backgrounds th{
+               font-size:13px;
+             }
+             #custom-backgrounds .ui-tabs-panel{
+               clear:both;
+             }
