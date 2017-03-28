@@ -17,7 +17,7 @@ get_header();
     <?php endif; ?>
 <?php endfor; ?>
 
-<?php $lenght = count($images); ?>    
+<?php $lenght = count($images); ?>
 <?php $key = rand(0, $lenght - 1); ?>
 <?php $uri = $images[$key]; ?>
 
@@ -60,21 +60,21 @@ get_header();
                                         <div id="option-wrapper">
                                             <div id="option">
                                                 <div id="title_option">
-                                                    <?php echo $homepage_photos_text; ?>             
+                                                    <?php echo $homepage_photos_text; ?>
                                                 </div>
-                                                <a href="<?php echo $first_box_link; ?>">    
+                                                <a href="<?php echo $first_box_link; ?>">
                                                     <div id="" class="option">
-                                                        <?php echo $first_box_text; ?>                   
-                                                    </div> 
-                                                </a>
-                                                <a href="<?php echo $second_box_link; ?>">     
-                                                    <div id="" class="option">
-                                                        <?php echo $second_box_text; ?>                             
+                                                        <?php echo $first_box_text; ?>
                                                     </div>
                                                 </a>
-                                                <a href="<?php echo $third_box_link; ?>">    
+                                                <a href="<?php echo $second_box_link; ?>">
                                                     <div id="" class="option">
-                                                        <?php echo $third_box_text; ?>                              
+                                                        <?php echo $second_box_text; ?>
+                                                    </div>
+                                                </a>
+                                                <a href="<?php echo $third_box_link; ?>">
+                                                    <div id="" class="option">
+                                                        <?php echo $third_box_text; ?>
                                                     </div>
                                                 </a>
                                             </div>
@@ -87,7 +87,7 @@ get_header();
                 </ul>
             </div>
         </section>
-    <?php endif; ?> 
+    <?php endif; ?>
     <?php $first_main_text = get_field('first_main_text'); ?>
     <?php if (!empty($first_main_text)): ?>
         <div class="container without-padding-bottom">
@@ -100,7 +100,7 @@ get_header();
                 </div>
             </div>
         </div>
-    <?php endif; ?> 
+    <?php endif; ?>
 
     <!-- Buckets -->
     <?php $first_bucket_post_id = get_field('first_bucket'); ?>
@@ -127,15 +127,15 @@ get_header();
                         </div>
                         <div class="content_widget_bgimage">
                             <div class="tile">
-                                <a href="#">   
+                                <a href="#">
                                     <?php echo $first_bucket_title ?>
                                 </a>
                             </div>
                             <div class="text">
-                                <?php echo $first_bucket_content ?>             
+                                <?php echo $first_bucket_content ?>
                             </div>
                         </div>
-                    </div>   
+                    </div>
                 <?php endif; ?>
             </div>
             <!-- End First Bucket Data -->
@@ -154,15 +154,15 @@ get_header();
                         </div>
                         <div class="content_widget_bgimage">
                             <div class="tile">
-                                <a href="#">   
+                                <a href="#">
                                     <?php echo $second_bucket_title ?>
                                 </a>
                             </div>
                             <div class="text">
-                                <?php echo $second_bucket_content ?>             
+                                <?php echo $second_bucket_content ?>
                             </div>
                         </div>
-                    </div>   
+                    </div>
                 <?php endif; ?>
             </div>
             <!-- End Second Bucket Data -->
@@ -181,15 +181,15 @@ get_header();
                         </div>
                         <div class="content_widget_bgimage">
                             <div class="tile">
-                                <a href="#">   
+                                <a href="#">
                                     <?php echo $third_bucket_title ?>
                                 </a>
                             </div>
                             <div class="text">
-                                <?php echo $third_bucket_content ?>             
+                                <?php echo $third_bucket_content ?>
                             </div>
                         </div>
-                    </div>   
+                    </div>
                 <?php endif; ?>
             </div>
             <!-- End Third Bucket Data -->
@@ -209,6 +209,6 @@ get_header();
                 </div>
             </div>
         </div>
-    <?php endif; ?> 
+    <?php endif; ?>
 </section>
 <?php get_footer(); ?>
