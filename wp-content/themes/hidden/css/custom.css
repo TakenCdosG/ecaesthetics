@@ -38,20 +38,20 @@
     font-weight: normal;
     font-style: normal;
 
-} 
-@font-face {font-family: 'Radikal-LightItalic';src: url('../webfonts/297C12_0_0.eot');src: url('../webfonts/297C12_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/297C12_0_0.woff') format('woff'),url('../webfonts/297C12_0_0.ttf') format('truetype');}  
-@font-face {font-family: 'Radikal-Light';src: url('../webfonts/297C12_1_0.eot');src: url('../webfonts/297C12_1_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/297C12_1_0.woff') format('woff'),url('../webfonts/297C12_1_0.ttf') format('truetype');}  
-@font-face {font-family: 'Radikal-Medium';src: url('../webfonts/297C12_2_0.eot');src: url('../webfonts/297C12_2_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/297C12_2_0.woff') format('woff'),url('../webfonts/297C12_2_0.ttf') format('truetype');}  
-@font-face {font-family: 'Radikal-MediumItalic';src: url('../webfonts/297C12_3_0.eot');src: url('../webfonts/297C12_3_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/297C12_3_0.woff') format('woff'),url('../webfonts/297C12_3_0.ttf') format('truetype');}  
-@font-face {font-family: 'Radikal-Black';src: url('../webfonts/297C12_4_0.eot');src: url('../webfonts/297C12_4_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/297C12_4_0.woff') format('woff'),url('../webfonts/297C12_4_0.ttf') format('truetype');}  
-@font-face {font-family: 'Radikal-BlackItalic';src: url('../webfonts/297C12_5_0.eot');src: url('../webfonts/297C12_5_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/297C12_5_0.woff') format('woff'),url('../webfonts/297C12_5_0.ttf') format('truetype');}  
-@font-face {font-family: 'Radikal-Bold';src: url('../webfonts/297C12_6_0.eot');src: url('../webfonts/297C12_6_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/297C12_6_0.woff') format('woff'),url('../webfonts/297C12_6_0.ttf') format('truetype');}  
-@font-face {font-family: 'Radikal';src: url('../webfonts/297C12_7_0.eot');src: url('../webfonts/297C12_7_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/297C12_7_0.woff') format('woff'),url('../webfonts/297C12_7_0.ttf') format('truetype');}  
-@font-face {font-family: 'Radikal-Italic';src: url('../webfonts/297C12_8_0.eot');src: url('../webfonts/297C12_8_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/297C12_8_0.woff') format('woff'),url('../webfonts/297C12_8_0.ttf') format('truetype');}  
-@font-face {font-family: 'Radikal-BoldItalic';src: url('../webfonts/297C12_9_0.eot');src: url('../webfonts/297C12_9_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/297C12_9_0.woff') format('woff'),url('../webfonts/297C12_9_0.ttf') format('truetype');} 
-@font-face {font-family: 'Radikal-Thin';src: url('../webfonts/297C12_A_0.eot');src: url('../webfonts/297C12_A_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/297C12_A_0.woff') format('woff'),url('../webfonts/297C12_A_0.ttf') format('truetype');}  
-@font-face {font-family: 'Radikal-ThinItalic';src: url('../webfonts/297C12_B_0.eot');src: url('../webfonts/297C12_B_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/297C12_B_0.woff') format('woff'),url('../webfonts/297C12_B_0.ttf') format('truetype');}  
-@font-face {font-family: 'Radikal-UltraThin';src: url('../webfonts/297C12_C_0.eot');src: url('../webfonts/297C12_C_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/297C12_C_0.woff') format('woff'),url('../webfonts/297C12_C_0.ttf') format('truetype');}  
+}
+@font-face {font-family: 'Radikal-LightItalic';src: url('../webfonts/297C12_0_0.eot');src: url('../webfonts/297C12_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/297C12_0_0.woff') format('woff'),url('../webfonts/297C12_0_0.ttf') format('truetype');}
+@font-face {font-family: 'Radikal-Light';src: url('../webfonts/297C12_1_0.eot');src: url('../webfonts/297C12_1_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/297C12_1_0.woff') format('woff'),url('../webfonts/297C12_1_0.ttf') format('truetype');}
+@font-face {font-family: 'Radikal-Medium';src: url('../webfonts/297C12_2_0.eot');src: url('../webfonts/297C12_2_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/297C12_2_0.woff') format('woff'),url('../webfonts/297C12_2_0.ttf') format('truetype');}
+@font-face {font-family: 'Radikal-MediumItalic';src: url('../webfonts/297C12_3_0.eot');src: url('../webfonts/297C12_3_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/297C12_3_0.woff') format('woff'),url('../webfonts/297C12_3_0.ttf') format('truetype');}
+@font-face {font-family: 'Radikal-Black';src: url('../webfonts/297C12_4_0.eot');src: url('../webfonts/297C12_4_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/297C12_4_0.woff') format('woff'),url('../webfonts/297C12_4_0.ttf') format('truetype');}
+@font-face {font-family: 'Radikal-BlackItalic';src: url('../webfonts/297C12_5_0.eot');src: url('../webfonts/297C12_5_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/297C12_5_0.woff') format('woff'),url('../webfonts/297C12_5_0.ttf') format('truetype');}
+@font-face {font-family: 'Radikal-Bold';src: url('../webfonts/297C12_6_0.eot');src: url('../webfonts/297C12_6_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/297C12_6_0.woff') format('woff'),url('../webfonts/297C12_6_0.ttf') format('truetype');}
+@font-face {font-family: 'Radikal';src: url('../webfonts/297C12_7_0.eot');src: url('../webfonts/297C12_7_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/297C12_7_0.woff') format('woff'),url('../webfonts/297C12_7_0.ttf') format('truetype');}
+@font-face {font-family: 'Radikal-Italic';src: url('../webfonts/297C12_8_0.eot');src: url('../webfonts/297C12_8_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/297C12_8_0.woff') format('woff'),url('../webfonts/297C12_8_0.ttf') format('truetype');}
+@font-face {font-family: 'Radikal-BoldItalic';src: url('../webfonts/297C12_9_0.eot');src: url('../webfonts/297C12_9_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/297C12_9_0.woff') format('woff'),url('../webfonts/297C12_9_0.ttf') format('truetype');}
+@font-face {font-family: 'Radikal-Thin';src: url('../webfonts/297C12_A_0.eot');src: url('../webfonts/297C12_A_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/297C12_A_0.woff') format('woff'),url('../webfonts/297C12_A_0.ttf') format('truetype');}
+@font-face {font-family: 'Radikal-ThinItalic';src: url('../webfonts/297C12_B_0.eot');src: url('../webfonts/297C12_B_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/297C12_B_0.woff') format('woff'),url('../webfonts/297C12_B_0.ttf') format('truetype');}
+@font-face {font-family: 'Radikal-UltraThin';src: url('../webfonts/297C12_C_0.eot');src: url('../webfonts/297C12_C_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/297C12_C_0.woff') format('woff'),url('../webfonts/297C12_C_0.ttf') format('truetype');}
 @font-face {font-family: 'Radikal-UltraThinItalic';src: url('../webfonts/297C12_D_0.eot');src: url('../webfonts/297C12_D_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/297C12_D_0.woff') format('woff'),url('../webfonts/297C12_D_0.ttf') format('truetype');}
 
 a, a:hover, a:focus {
@@ -680,7 +680,7 @@ p.location{
     font-size: 18px;
     color: #505e61;
     width: 100%;
-    float: none; 
+    float: none;
     clear: both;
 }
 
@@ -751,7 +751,7 @@ p.location{
 
 .sf-menu > li.current_page_parent, .sf-menu > li.current-menu-parent, .sf-menu > li.current-menu-item, .sf-menu > li.active, .sf-menu > li:hover, .sf-menu > li.sfHover{
     text-decoration: none;
-    background: transparent!important;  
+    background: transparent!important;
 }
 
 .bubble-content .custom-bubble-text:last-child{
@@ -820,6 +820,7 @@ p.location{
 
 .bg-buckets{
     background: #e1dedb;
+    display: none;
 }
 
 .bg-buckets .container{
@@ -1025,4 +1026,8 @@ p.location{
 
 .symple-one-half, .symple-one-third, .symple-two-third, .symple-three-fourth, .symple-one-fourth, .symple-one-fifth, .symple-two-fifth, .symple-three-fifth, .symple-four-fifth, .symple-one-sixth, .symple-five-sixth{
     margin-bottom: 0px;
+}
+
+.container.page-testimonials {
+    display: none;
 }

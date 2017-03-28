@@ -19,7 +19,7 @@ get_header();
                 </ul>
             </div>
         </section>
-    <?php endif; ?> 
+    <?php endif; ?>
     <div class="fullwidth bg-header">
         <div class="container">
             <div class="row">
@@ -39,9 +39,9 @@ get_header();
                         </h1>
                         <div class="clearfix visible-xs"></div>
                         <?php // slogan ?>
-                        <?php if ($pageSlogan): ?> 
+                        <?php if ($pageSlogan): ?>
                             <small class="page-title-small"> <?php echo $pageSlogan; ?> </small>
-                        <?php endif; ?> 
+                        <?php endif; ?>
                     </div>
                     <div class="after-title"></div>
                 </div>
@@ -76,7 +76,7 @@ get_header();
                 <div class="row">
                     <?php if ($init == 0): ?>
                         <div class="col-sm-12">
-                            <p class="location"><?php if ($team_member_location == "US"): ?> United States <?php else: ?> <?php echo $team_member_location; ?> <?php endif; ?></p>
+                            <!-- <p class="location"><?php// if ($team_member_location == "US"): ?> United States <?php// else: ?> <?php// echo $team_member_location; ?> <?php// endif; ?></p> -->
                         </div>
                     <?php endif; ?>
                     <div class="col-sm-3">
@@ -89,7 +89,7 @@ get_header();
                     <div class="col-sm-8">
                         <div id="team_rigth">
                             <div class="title_article"> <a href="<?php the_permalink() ?>"><?php echo $post->post_title ?> <?php if (!empty($team_member_qualifications)): ?> <span class="team_member_location"><?php echo $team_member_qualifications; ?> <?php endif; ?></span> </a> </div>
-                            <div class="description_article" class="radikal_light_team"> 
+                            <div class="description_article" class="radikal_light_team">
                                 <?php $post_excerpt = $post->post_excerpt; ?>
                                 <?php if (!empty($post_excerpt)): ?>
                                     <?php echo $post_excerpt; ?>
@@ -132,7 +132,7 @@ get_header();
                 <div class="row">
                     <?php if ($init == 0): ?>
                         <div class="col-sm-12">
-                            <p class="location"><?php if ($team_member_location == "US"): ?> United States <?php else: ?> <?php echo $team_member_location; ?> <?php endif; ?></p>
+                            <!-- <p class="location"><?php // if ($team_member_location == "US"): ?> United States <?php // else: ?> <?php // echo $team_member_location; ?> <?php // endif; ?></p> -->
                         </div>
                     <?php endif; ?>
                     <div class="col-sm-3">
@@ -145,7 +145,7 @@ get_header();
                     <div class="col-sm-8">
                         <div id="team_rigth">
                             <div class="title_article"> <a href="<?php the_permalink() ?>"><?php echo $post->post_title ?> <?php if (!empty($team_member_qualifications)): ?> <span class="team_member_location"><?php echo $team_member_qualifications; ?> <?php endif; ?></span> </a> </div>
-                            <div class="description_article" class="radikal_light_team"> 
+                            <div class="description_article" class="radikal_light_team">
                                 <?php $post_excerpt = $post->post_excerpt; ?>
                                 <?php if (!empty($post_excerpt)): ?>
                                     <?php echo $post_excerpt; ?>
@@ -170,7 +170,7 @@ get_header();
         <?php $init = $init + 1; ?>
     <?php endwhile; ?>
     <!-- End United Kingdom -->
-    <!-- End Team Members --> 
+    <!-- End Team Members -->
     <div class="container page-testimonials">
         <div class="testimonials-content-excerpt">
             <?php $orderby = 'menu_order'; ?>
