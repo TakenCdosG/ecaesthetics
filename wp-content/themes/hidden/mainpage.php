@@ -111,7 +111,6 @@ get_header();
     <?php $third_bucket_post_id = isset($third_bucket_post_id[0]) ? $third_bucket_post_id[0] : $third_bucket_post_id; ?>
 
 
-
     <?php $second_main_text = get_field('second_main_text'); ?>
     <?php if (!empty($second_main_text)): ?>
         <div class="container">
