@@ -18,7 +18,7 @@
                         <div class="press_rigth">
                             <div class="date_article"><?php print_post_date(); ?></div>
                             <div class="title_article"> <a href="<?php the_permalink() ?>"><?php echo $post->post_title ?> <?php if (!empty($team_member_qualifications)): ?> <span class="team_member_location"><?php echo $team_member_qualifications; ?> <?php endif; ?></span> </a> </div>
-                            <div class="description_article" class="radikal_light_team"> 
+                            <div class="description_article" class="radikal_light_team">
                                 <?php $post_excerpt = $post->post_excerpt; ?>
                                 <?php if (!empty($post_excerpt)): ?>
                                     <?php echo $post_excerpt; ?>
@@ -28,7 +28,7 @@
                             </div>
                             <div class="read-more">
                                 <?php if (!empty($external_link)): ?>
-                                    <a target="_blank" href="<?php echo $external_link ?>">LEAR MORE <i class="fa fa-angle-right"></i></a>
+                                    <a target="_blank" href="<?php echo $external_link ?>">LEARN MORE <i class="fa fa-angle-right"></i></a>
                                 <?php else: ?>
                                     <a href="<?php the_permalink() ?>">LEARN MORE</a>
                                 <?php endif; ?>
