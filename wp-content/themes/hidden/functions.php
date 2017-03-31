@@ -1518,3 +1518,10 @@ add_shortcode('afl_social_links', 'afl_social_links_func');
 require_once get_template_directory() . '/lib/inc/register-widgets.php';
 require_once get_template_directory() . '/lib/inc/sidebar-init.php';
 require_once( get_template_directory() . '/lib/woocommerce-bridge/wooconfig.php' );
+
+// Redirect After Logout
+function logout_redirect_home(){
+    wp_safe_redirect(home_url());
+    exit;
+}
+add_action('wp_logout', 'logout_redirect_home');
